@@ -3,6 +3,9 @@ services:
   redis:
     image: redis:alpine
     container_name: ${APP_NAME}_redis
+  #ubuntu:
+   # image: library/ubuntu:22.10
+    #container_name: ${APP_NAME}_ubuntu
 
   postgres:
     image: library/postgres:latest
